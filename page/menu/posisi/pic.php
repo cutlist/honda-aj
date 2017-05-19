@@ -238,7 +238,7 @@
 	            </li>
 	            <li class="<?if($menu==md5(perbaharuiohc)){echo "active";}?>">
 	                <a href="<? echo "?opt=$opt&submenu=D&menu=".md5(perbaharuiohc);?>">
-	                    <i class="fa fa-star"></i> <span>Perbaharui OHC</span>
+	                    <i class="fa fa-star"></i> <span>Perbarui OHC</span>
 	                </a>
 	            </li>
 	            <li class="<?if($menu==md5(potensial)){echo "active";}?>">
@@ -698,7 +698,7 @@
 	            </li>
 	            <li class="<?if($menu==md5(perbaharuiohc)){echo "active";}?>">
 	                <a href="<? echo "?opt=$opt&submenu=D&menu=".md5(perbaharuiohc);?>">
-	                    <i class="fa fa-star"></i> <span>Perbaharui OHC</span>
+	                    <i class="fa fa-star"></i> <span>Perbarui OHC</span>
 	                </a>
 	            </li>
 	        </ul>
@@ -1260,7 +1260,7 @@
 	            </li>
 	            <li class="<?if($menu==md5(perbaharuiohc)){echo "active";}?>">
 	                <a id="4" href="<? echo "?opt=$opt&submenu=D&menu=".md5(perbaharuiohc);?>">
-	                    <i class="fa fa-star"></i> <span><u>P</u>erbaharui OHC</span>
+	                    <i class="fa fa-star"></i> <span><u>P</u>erbarui OHC</span>
 	                </a>
 	            </li>
 	        </ul>

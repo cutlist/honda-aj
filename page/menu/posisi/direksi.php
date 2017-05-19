@@ -329,7 +329,7 @@
 	            </li>
 	            <li class="<?if($menu==md5(perbaharuiohc)){echo "active";}?>">
 	                <a href="<? echo "?opt=$opt&submenu=D&menu=".md5(perbaharuiohc);?>" id="4">
-	                    <i class="fa fa-star"></i> <span><u>P</u>erbaharui OHC</span>
+	                    <i class="fa fa-star"></i> <span><u>P</u>erbarui OHC</span>
 	                </a>
 	            </li>
 	            <li class="<?if($menu==md5(potensial)){echo "active";}?>">
