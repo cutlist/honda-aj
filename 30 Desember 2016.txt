@@ -1,0 +1,227 @@
+
+- JIKA DARI INDENT, TERUS DI UBAH MELALUI RIWAYAT, TRUS DI SIMPAN, ITU TAMPILAN JUMLAH DI DAFTAR KWITANSI PENJUALANNYA NGACO KARNA TOTAL INDENT TIDAK TERBACA
+  (banyak proses yang di ubah karna saat memproses membuat nota jual dari nota inden, musti menghubungkan jumlah uang muka yang sudah masuk, 
+   dan jika di ubah lagi melalui riwayat maka di kwitansi jualnya hanya mengupdate total dari detail penjualan saja tanpa menghitung total 
+   uang muka kembali)
+   
+================================================================================================================================
+   
+=================================================================================================================================
+- TUTUP PERIODE :
+	PEMBULATAN DI PISAH
+	AMBIL DARI DETAIL PENJUALAN, LIAT ITU BARANG SUPPLPIERNYA SIAPA
+	CEK NO NOTA NYA UDAH DICETAK BLOM
+	BARU NONGOL
+- INGAT TAMPILAN TUTUP HARIAN JUGA BERUBAH!!!!EXCEL JUGA!!!!
+- DETAIL RETUR BELI JUGA BISA DI PRINT
+=================================================================================================================================
+
+- PADA SERVIS SAAT TAMBAH BARANG DAN TAMBAH OLI PAKAI METODE BARU
+- PENCARIAN DI DISPENSASI H1/H2H3 PAKAI SEARCH BY PERIODE
+- POTONGAN KOMPENSASI PAKAI METODE CARI KOMBINASI (H1-H2H3)
+- PROSES POTONGAN KOMPENSASI DI COBA DARI AWAL DENGAN BANYAK KASUS, (BANDINGKAN DENGAN H1)
+- DI KWITANSINYA NGACO DI STATUS CETAK DAN WARNANYA
+- DI ARUS KAS NYA JUGA TIDAK MUNCUL
+- PEMBAYARAN DENGAN METODE GAJI, STATUS DI BUAT MENJADI TIDAK PERLU CETAK SEPERTI H1
+
+=================================================================================================================================
+
+CEK YANG :
+- RETUR
+- JUMLAH
+- QTY
+- NOTA
+- TGL
+- TANGGAL
+- NAMA
+- BARANG
+- CEK DI H1/H2H3/PRINT/MENU SEARCH (DILENGKAPI)
+
+==================================================================================================================================
+
+- PADA SAAT KLIK TOMBOL SETUJU, DI CEK DULU POTONGAN DAN GAJINYA SEIMBANG ATAU TIDAK DAN TIDAK BISA DI SIMPAN (H1/H2H3)
+- DI DISPENSASI JIKA TANGGAL YANG TABRAKAN MASIH BISA DI INPUT, SEHARUSNYA TIDAK BISA (H1/H2H3)
+- CEK POTONGAN KOMPENSASI (GAJI) BELUM MUNCUL DI MENU KOMPENSASI
+- PADA PEMBAYARAN PIUTANG, SAAT KONFIRMASI HITUNG SISA PIUTANG, JIKA PEMBAYARAN LEBIH DARI PIUTANG, MAKA TOMBOL YANG AKTIF HANYA TOLAK.
+- HISTORY PIUTANG BISA EXPORT KE EXCEL
+
+==================================================================================================================================
+
+CLAIM OLI BELUM DICOBA
+PENAGIHAN KPB BELUM DICOBA
+PENAGIHAN OLI KPB BELUM DICOBA
+YANG SERVIS SUDAH DI COBA DELETE ANTRIAN DARI BUAT NOTA SERVIS
+
+===================================================================================================================================
+
+SERVIS DISKON PAKAI % DAN RP
+judul di ganti laporan penjualan workshop dan judul detailnya juga
+
+===================================================================================================================================
+
+- RINGKASAN PENJUALAN ANTARA WEB DAN EXCEL BEDA
+- RINGKASAN SERVIS PERASAAN PAK ALEX GAK ENAK (YANG SEDANG DI SERVIS DAN SUDAH DI SERVIS)
+- RINGKASAN MOTOR SERVIS (SUDAH DI INPUT NOTA SERVIS)
+
+===================================================================================================================================
+
+- DI RINGKASAN PENJUALAN DAN RINGKASAN MOTOR SERVIS, SETELAH NO. KASI TGL. KWITANSI, DI CARINYA GANTI PILIH PERIODE KWITANSI
+- DI RINGKASAN SERVIS, DI CARINYA GANTI PILIH PERIODE MULAI SERVIS 
+- DI RINGKASAN ARUS BARANG, DI CARINYA GANTI PILIH PERIODE TGL NOTA BELI (BARANG MASUK) / TGL KWITANSI (BARANG KELUAR) / TGL PINDAH (PINDAH LOKASI)
+- DI RINGKASAN ARUS BARANG, CEK TOTAL KELUAR NYA
+
+===================================================================================================================================
+
+TOMBOL PRINT HANYA CETAK YG TAMPIL DI LAYAR SAJA, UNTUK SEMUA H1, H2H3 (YANG SUDAH KWITANSI SERVIS DAN RIWAYAT SERVIS)
+
+YANG ADA MENU KEMBALI, KALO DI KLIK KEMBALI DATA LAMANYA HILANG (ULANG LAGI)
+MASIH ADA Y-M-D RAHASIA
+CEK YANG EXPORT KE EXCEL YANG ADA PERIODENYA DAN DI USAHKAN LEBIH DARI 1 HARI DISERAGAMKAN SD NYA DIGANTI SAMPAI DENGAN
+
+===================================================================================================================================
+
+- PADA RINGKASAN MOTOR SERVIS, JIKA SERVIS JR MURNI TIDAK TAMPIL, HANYA DI KOLOM SERVIS JR NYA SAJA
+- PADA RINGKASAN ARUS BARANG DIGANTI NOTA JUAL / NOTA SERVIS DAN TANGGALNYA JUGA
+
+===================================================================================================================================
+
+- PADA PENAGIHAN KPB KE MPM ADA TOMBOL AKSI UNTUK MENGUBAH, JIKA DI TOLAK MASUK KE INDIKASI KESALAHAN
+- EXPORT EXCEL NYA MASIH BANYAK YG TIDAK SAMA
+
+- SEMUA YG ADA PILIH PERIODE DIKASI KETERANGAN PERIODE APA DAN LANGSUNG HILANG
+- EXCELNYA JUGA DI BENERIN KASI KETERANGAN PERIODE APA
+
+===================================================================================================================================
+
+- EXPORT YANG ADA NO TELPON KASI PETIK H1 H2H3
+- EXCEL H2 UDAH DI CEK SMPAI PENJUALAN INDENT, SERVIS KEBAWAH BELUM DICEK
+
+===================================================================================================================================
+
+- PENGECEKAN H1 - BARU SAMAPAI ADMINISTRASI - RETUR BELI (KEBAWAH BELUM)
+
+===================================================================================================================================
+
+- TOMBOL RESET DI PEMBAYARAN LEASING
+- DI MENU PEMBAYARAN - RIWAYAT PEMBAYARAN JIKA KLIK UBAH GAK ADA TAMPILANNYA
+- YANG BELUM SDM KEBAWAH
+
+===================================================================================================================================
+
+- CEK H2H3 YANG AKTIVITAS BINSI UNTUK YANG "-"
+- COBA MENU BACK UP, TAMBAH LOKASI PENYIMPANAN
+
+===================================================================================================================================
+
+BUAT MASTER PERSENTASE KOMISI (MASTER KOMISI OMSET BRUTO)
+UNTUK MENDAPATKAN KOMISI REALNYA , NILAI F CARI DI MASTER PERSENTASE KOMISI
+SETELAH DAPAT MASUK GOLONGAN MANA, BARU OMSET PER ORANGNYA DI KALIKAN DGN PERSENTASE KOMISI
+JADILAH RUPIAH KOMISI
+DI SDM ITU NAMANYA KOMISI SERVIS
+
+BUAT MASTER KOMISI JASA (KEPALA MEKANIK + SA)
+untuk hitung C = B x Master Komisi Jasa Kepala Mekanik
+KOMISI TOTAL KEPALA BENGEL = C + F
+C = KOMISI JASA (TABEL SDM REKAP)
+F = KOMISI KEPALA BENGKEL (TABEL SDM REKAP)
+
+UNTUK KOMISI SA ITU C = B x Master Komisi Jasa SA
+
+===================================================================================================================================
+
+MENU SDM RINCIAN KASI BULAN TAHUN AWAL, BULAN TAHUN AKHIR DAN EXPORT EXCEL
+DI KINERJAR MEKANIK (KETIGANYA), PENCARIAN PAKAI PERIODE TANGGAL
+
+===================================================================================================================================
+
+- RUMUS SELISIH JAM SALAH, DI CEK LAGI YG BERKAITAN DGN RUMUS TSB :
+ #KINERJA MEKANIK
+ #AKTIVITAS BISNIS RINGKASAN SERVIS
+ #PENDAPATAN HARIAN
+ 
+- FILE MEGA OKTOBER UNTUK CARI LABA KREDIT
+
+- BUAT MASTER NOTICE DI MASTER BARANG H1,
+- NOTICE PLAT MERAH, PLAT HITAM
+
+- UNTUK LOGIN FAKE DATA, PAKAI LOGIN 3 DIGIT BELAKANGNYA "-aj"
+- menu normal, yg view hanya genap saja
+
+===================================================================================================================================
+
+BUAT TAMPILAN FULL BANGET UNTUK SHOW ANTRIAN
+KASI BUNYI KALAU SHOW ANTRIANNYA GANTI NOMOR
+BUAT MENU OWNER YG KASI NOTIFIKASI AKTIFITAS BISNIS (ALERT)(H1 H2H3) - LENGKAPI DENGAN UPDATE BARU
+
+1. PERHITUNGAN LABA KREDIT  (YG 1,4JT ITU LHO)
+2. PERHITUNGAN LABA CASH TEMPO LEASING SM AP GAK SM KREDIT (TANPA GROSS DAN SUBSIDI)
+3. HAK AKSES
+4. PAJAK
+
+===================================================================================================================================
+
+PENGECEKAN PAJAK YANG BELUM AKTIVITAS BISNIS H2H3
+
+===================================================================================================================================
+
+- PEMBAYARAN UANG LEMBUR ADA CETAK KWITANSI
+- PADA KWITANSI DI TAMBAH STATUS
+- DAN DIRIWAYAT SEARCH NYA DITAMBAH PENCARIAN STATUS
+- DI TUTUP HARIAN JIKA ADA KWITANSI INDENT DAN PENJUALAN YANG MASIH MERAH TIDAK BISA TUTUP HARIAN
+- DIBUAT KALAU BELUM TUTUP SERVIS KASIR GAK BISA TUTUP HARIAN
+
+===================================================================================================================================
+
+- ITUNGAN LABA KREDIT YANG ADA DI KERTAS
+- KUNCIAN SERIAL NUMBER
+- BUKA KUNCIAN SENSOR DI KALIANGET
+- DIMENU PELANGGAN GAK BISA BLOK / KLIK KANAN
+- MASTER DEEPFREEZ
+
+===================================================================================================================================
+
+- DI MENU PELANGGAN DI TAMBAH "TANGGAL PEMBELIAN TERAKHIR | TAHUN KENDARAAN" DARI TANGGAL DRIVER INPUT PENGIRIMAN UNIT
+- TRUS TAMBAH AKSI "PROSPEK" MASUK KE MENU "PROSEPEK TERPILIH" DAN DI SITU PILIH SALESNYA PAKAI PERIODE BULAN DAN TAHUN BERJALAN
+- DI PENJUALAN DI MENU PEMESANAN ISINYA HANYA YG TAMPIL NAMA KONSUMEN YG SUDAH DIPILIH PROSPOEK SAJA PER SALES
+- DI KINERJA SALES TAMBAH MENU "EFEKTIVITAS SALES" PAKE PERIODE BULAN TAHUN
+	NAMA SALES | JUMLAH PROSEPEK (ORANG) | JUMLAH TINDAK LANJUT (TINDAKAN) | JUMLAH PENJUALAN (TRANSAKSI)
+	
+===================================================================================================================================
+
+iklan bisa di apus
+DI SERVICE KALO DI SELECt FONT JADI WARNA KUNING
+GAMBAR GK BOLEH NEMPEL
+home diganti beranda yang bahasa indonesia
+award diganti penghargaan yang bahasa indonesia
+award gak muncul
+menu ubah alamat,email,no telpn
+menu ganti password gk bisa
+tanya edit iklan buat apa
+KATA PAK ALEX LAMA GAK?
+
+===================================================================================================================================
+
+MENU PELANGGAN PROSPEK PENCARIANNYA BULAN TAHUN PERIODE AWAL DAN BULAN TAHUN PERIODE AKHIR
+BUAT MENU PELANGGAN POTENSIAL H2
+
+===================================================================================================================================
+
+DI PELANGGAN DI TAMBAH TABEL TRANSAKSI TERAKHIR
+TANGGAL TRANSAKSI TERAKIR | DETAIL MOTOR
+DI PELANGGAN POTENSIAL KASI DETAIL BARANG
+
+===================================================================================================================================
+
+tampilan di hp di samain sm di komputer
+antara logo imc dan gambar terlalu dekat
+iklan1 dan bawah masih nempel
+
+home diganti beranda yang bahasa indonesia (titlenya juga)
+award diganti penghargaan yang bahasa indonesia (titlenya juga)
+di kontak kaminya semuanya yg bisa diubah
+KATA PAK ALEX LAMA GAK?
+
+===================================================================================================================================
+
+title ada yang gak nongol
+contact us dan kontak kami (judul 1) masih belum bisa di update

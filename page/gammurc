@@ -1,0 +1,9 @@
+[gammu]
+
+; isikan nomor port di bawah ini
+
+port = com3:
+
+; isikan jenis connection di bawah ini
+
+connection = at115200
