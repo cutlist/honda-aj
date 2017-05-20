@@ -1,0 +1,21 @@
+INSTALASI GITHUB
+================================================
+install git
+install tortoisegit
+===============================================
+
+klik kanan pada folder
+pilih Git Bash Here
+
+git init
+
+buat README.md di dalam folder
+
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/cutlist/sigerit001.git
+git push -u origin master
+
+UNTUK PULL pertama kali 
+git clone https://github.com/cutlist/sigerit001.git
+klik kanan tortoisegit -> pull
